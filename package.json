@@ -1,0 +1,27 @@
+{
+  "name": "kyte.codes",
+  "version": "1.0.0",
+  "description": "website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyteinsky/kyte.codes.git"
+  },
+  "keywords": [
+    "kyte",
+    "codes"
+  ],
+  "author": "kyte",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kyteinsky/kyte.codes/issues"
+  },
+  "homepage": "https://github.com/kyteinsky/kyte.codes#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
