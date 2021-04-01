@@ -1,12 +1,12 @@
 {
   "name": "kyte.codes",
   "version": "1.0.0",
-  "description": "website",
+  "description": "personal website",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "build": "npm install"
+    "start": "nodemon index-local.js",
+    "build": "netlify-lambda build express"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,10 @@
   },
   "homepage": "https://github.com/kyteinsky/kyte.codes#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "netlify-lambda": "^1.6.3",
+    "nodemon": "^1.19.2",
+    "serverless-http": "^2.3.0"
   }
 }
